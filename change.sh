@@ -1,0 +1,2 @@
+~/MNN/build/MNNConvert -f ONNX --modelFile /home/ubuntu/isaac/t_s/legged_gym/onnx/legged.onnx --MNNModel /home/ubuntu/dog/TOE-Dog/legged.mnn --bizCode MNN
+# ~/MNN/build/MNNConvert -f ONNX --modelFile /home/ubuntu/isaac/original/legged_gym/onnx/encoder_z_input.onnx --MNNModel /home/ubuntu/dog/TOE-Dog/encoder_z_input.mnn --bizCode MNN
