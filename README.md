@@ -3,7 +3,7 @@
 需要mujoco、ros的包(如麻烦，直接删掉play中的手柄接收)
 sim2sim.py --mujoco迁移验证（迁移很奇怪，基座会出现莫名抖动和gym中差异很大）
 7000轮次是老师，play中isteacher=true
-4000轮次是学生，play中isteacher=false
+5000轮次是学生，play中isteacher=false
 ### rsl_rl ###
 1. 在原版基础上teacher加了编码器，输入是obs_critic(obs+privileged_obs),输出32
 2. student为后缀加了ts的文件，只做了动作损失和潜在特征损失
