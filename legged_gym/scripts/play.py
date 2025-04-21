@@ -40,7 +40,7 @@ import torch
 import rospy
 from sensor_msgs.msg import Joy
 joy_cmd = [0.0, 0.0, 0.0]
-is_teacher=True
+is_teacher=False
 def joy_callback(joy_msg):
     global joy_cmd
     global stop
@@ -69,11 +69,15 @@ def play(args):
     env, _ = task_registry.make_env(name=args.task, args=args, env_cfg=env_cfg)
     obs = env.get_observations()
     priv = env.get_privileged_observations()
+    env.max_episode_length*=100
 
     # load policy
     train_cfg.runner.resume = True
-    path = "/home/ubuntu/isaac/t_s/legged_gym/logs/rough_a1/Apr21_12-56-07_/model_6500.pt"
     
+    if is_teacher:
+        path = LEGGED_GYM_ROOT_DIR+"/model_7000.pt"
+    else:
+        path = LEGGED_GYM_ROOT_DIR+"/model_5000.pt"
     ppo_runner, train_cfg = task_registry.make_alg_runner(env=env,path=path, name=args.task, args=args, train_cfg=train_cfg,isteacher=is_teacher)
     
     policy = ppo_runner.get_inference_policy(device=env.device)

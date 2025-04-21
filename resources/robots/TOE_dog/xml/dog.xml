@@ -1,7 +1,7 @@
 <mujoco model="TOE_dog">
 
 
-  <compiler angle="radian" meshdir="/home/ubuntu/dog/TOE-Dog/robot/TOE_dog/xml/assets" autolimits="true"/>
+  <compiler angle="radian" meshdir="assets" autolimits="true"/>
   <option cone="elliptic" impratio="100" />
   <default>
     <default class="dog">
@@ -16,7 +16,7 @@
         <geom group="3"/>
         <default class="foot">
           <geom size="0.022" pos="-0.002 0 -0.20051" priority="1" condim="6"
-            friction="1 0.02 0.01"/>
+            friction="0.4 0.02 0.01"/>
         </default>
       </default>
 
@@ -68,9 +68,9 @@
           <joint name="FL_calf_joint" pos="0 0 0" axis="0 1 0" range="-2.6 -0.15" actuatorfrcrange="-35 35"/>
           <geom type="mesh" contype="0" conaffinity="0" group="2" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="TOE_calf"/>
           
-<!--           
+          
           <geom size="0.08 0.01225 0.02" pos="0 0 -0.09" quat="0.707105 0 0.707108 0" type="box" rgba="0.752941 0.752941 0.752941 1"/>
-           -->
+          
 
 
             <!-- <geom mesh="calf_0" material="gray" class="visual" />
@@ -108,7 +108,7 @@
           <joint name="FR_calf_joint" pos="0 0 0" axis="0 1 0" range="-2.6 -0.15" actuatorfrcrange="-35 35"/>
           <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="TOE_calf"/>
           
-          <!-- <geom size="0.08 0.01225 0.02" pos="0 0 -0.09" quat="0.707105 0 0.707108 0" type="box" rgba="0.752941 0.752941 0.752941 1"/> -->
+          <geom size="0.08 0.01225 0.02" pos="0 0 -0.09" quat="0.707105 0 0.707108 0" type="box" rgba="0.752941 0.752941 0.752941 1"/>
           <geom pos="0 0 -0.20051" mesh="foot" class="visual" material="black" />
 
           <geom name="FR" class="foot" />
@@ -131,7 +131,7 @@
           <inertial pos="2.20012e-06 0 -0.0899722" quat="0.589757 0.00217462 -0.0158376 0.807423" mass="0.22" diaginertia="0.00224982 0.0022483 4.68694e-05"/>
           <joint name="RL_calf_joint" pos="0 0 0" axis="0 1 0" range="-2.6 -0.15" actuatorfrcrange="-35 35"/>
           <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="TOE_calf"/>
-          <!-- <geom size="0.08 0.01225 0.02" pos="0 0 -0.09" quat="0.707105 0 0.707108 0" type="box" rgba="0.752941 0.752941 0.752941 1"/> -->
+          <geom size="0.08 0.01225 0.02" pos="0 0 -0.09" quat="0.707105 0 0.707108 0" type="box" rgba="0.752941 0.752941 0.752941 1"/>
           <geom pos="0 0 -0.20051" mesh="foot" class="visual" material="black" />
           <geom name="RL" class="foot" />
           <body name="RL_foot" pos="0 0 -0.20051" />
@@ -152,7 +152,7 @@
           <inertial pos="2.20012e-06 0 -0.0899722" quat="0.633334 0.00270795 -0.015959 0.773709" mass="0.22" diaginertia="0.00225069 0.00224833 4.69019e-05"/>
           <joint name="RR_calf_joint" pos="0 0 0" axis="0 1 0" range="-2.6 -0.15" actuatorfrcrange="-35 35"/>
           <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="TOE_calf"/>
-          <!-- <geom size="0.08 0.01225 0.02" pos="0 0 -0.09" quat="0.707105 0 0.707108 0" type="box" rgba="0.752941 0.752941 0.752941 1"/> -->
+          <geom size="0.08 0.01225 0.02" pos="0 0 -0.09" quat="0.707105 0 0.707108 0" type="box" rgba="0.752941 0.752941 0.752941 1"/>
           <geom pos="0 0 -0.20051" mesh="foot" class="visual" material="black" />
           <geom name="RR" class="foot" />
           <body name="RR_foot" pos="0 0 -0.20051" />

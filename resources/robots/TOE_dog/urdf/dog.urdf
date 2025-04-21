@@ -37,7 +37,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_base.STL" />
+          filename="../assets/TOE_base.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_FL_hip.STL" />
+          filename="../assets/TOE_FL_hip.STL" />
       </geometry>
       <material
         name="">
@@ -137,7 +137,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_L_thigh.STL" />
+          filename="../assets/TOE_L_thigh.STL" />
       </geometry>
       <material
         name="">
@@ -192,7 +192,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_calf.STL" />
+          filename="../assets/TOE_calf.STL" />
       </geometry>
       <material
         name="">
@@ -247,7 +247,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_foot.STL" />
+          filename="../assets/TOE_foot.STL" />
       </geometry>
       <material
         name="">
@@ -297,7 +297,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_FR_hip.STL" />
+          filename="../assets/TOE_FR_hip.STL" />
       </geometry>
       <material
         name="">
@@ -352,7 +352,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_R_thigh.STL" />
+          filename="../assets/TOE_R_thigh.STL" />
       </geometry>
       <material
         name="">
@@ -407,7 +407,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_calf.STL" />
+          filename="../assets/TOE_calf.STL" />
       </geometry>
       <material
         name="">
@@ -462,7 +462,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_foot.STL" />
+          filename="../assets/TOE_foot.STL" />
       </geometry>
       <material
         name="">
@@ -512,7 +512,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_RL_hip.STL" />
+          filename="../assets/TOE_RL_hip.STL" />
       </geometry>
       <material
         name="">
@@ -567,7 +567,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_L_thigh.STL" />
+          filename="../assets/TOE_L_thigh.STL" />
       </geometry>
       <material
         name="">
@@ -622,7 +622,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_calf.STL" />
+          filename="../assets/TOE_calf.STL" />
       </geometry>
       <material
         name="">
@@ -677,7 +677,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_foot.STL" />
+          filename="../assets/TOE_foot.STL" />
       </geometry>
       <material
         name="">
@@ -727,7 +727,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_RR_hip.STL" />
+          filename="../assets/TOE_RR_hip.STL" />
       </geometry>
       <material
         name="">
@@ -782,7 +782,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_R_thigh.STL" />
+          filename="../assets/TOE_R_thigh.STL" />
       </geometry>
       <material
         name="">
@@ -837,7 +837,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_calf.STL" />
+          filename="../assets/TOE_calf.STL" />
       </geometry>
       <material
         name="">
@@ -892,7 +892,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="/home/ubuntu/isaac/TOE_RL/resources/robots/TOE_dog/xml/assets/TOE_foot.STL" />
+          filename="../assets/TOE_foot.STL" />
       </geometry>
       <material
         name="">

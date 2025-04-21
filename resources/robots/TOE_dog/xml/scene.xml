@@ -22,13 +22,16 @@
   <hfield name="perlin_hfield" size="1.0 0.75 0.2 0.2" file="../height_field.png" /><hfield name="image_hfield" size="1.0 1.0 0.02 0.1" file="../unitree_hfield.png" /></asset> -->
   <worldbody>
     <light pos="0 0 1.5" dir="0 0 -1" directional="true"/>
-    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
+    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"  friction="0.7 0.1 0.01"/>
     <!-- 场地 -->
     
     <geom pos="-21 0.6 0.04" type="box"  size="20 0.2 0.02" quat="1.0 0 0 0"/>
     <geom pos="-21 -0.6 0.04" type="box"  size="20 0.2 0.02" quat="1.0 0 0 0"/>
     <geom pos="21 1.5 0.04" type="box"  size="20 0.1 0.05" quat="1.0 0 0 0"/>
     <geom pos="21 -1.5 0.04" type="box"  size="20 0.1 0.05" quat="1.0 0 0 0"/>
+    <geom pos="3 0 0.02" type="box"  size="0.4 0.5 0.3" quat="1.0 0 0 0"/>
+    <geom pos="2.5 0 0.02" type="box"  size="0.15 0.5 0.2" quat="1.0 0 0 0"/>
+    <geom pos="2.2 0 0.02" type="box"  size="0.3 0.5 0.1" quat="1.0 0 0 0"/>
     <!-- 竖杆 -->
     <!-- <geom pos="1 0 0.02" type="cylinder"  size="0.35 0.01" quat="1.0 0 0 0"/>
     <geom pos="1.5 0 0.02" type="cylinder"  size="0.1 1." quat="1.0 0 0 0"/>
